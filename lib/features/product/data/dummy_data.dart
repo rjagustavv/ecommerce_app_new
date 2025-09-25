@@ -3,17 +3,20 @@ import '../models/product.dart';
 List<Product> dummyProducts = [
   Product(
     id: 'p1',
-    name: 'Sepatu Olahraga',
+    name: 'Balenciaga Track.2 Trainer Grey Black 568614 W2GN3 1285',
     description: 'Sepatu lari nyaman untuk aktivitas sehari-hari.',
     price: 450000,
-    imageUrl: 'https://via.placeholder.com/150/FF5733/FFFFFF?text=Sepatu',
+    imageUrl:
+        'https://i.pinimg.com/1200x/56/1b/23/561b231e4b34cac0a9f71e7d84b2805f.jpg',
   ),
   Product(
     id: 'p2',
-    name: 'Kaos Katun Premium',
+    name:
+        'Greenlight Kaos Pria Lengan Pendek Regular Fit Katun Perspective C030225',
     description: 'Kaos bahan katun premium, adem dan nyaman.',
     price: 120000,
-    imageUrl: 'https://i.pinimg.com/1200x/b3/7d/2e/b37d2e5dc5b3eb6143eec559a464fc0b.jpg',
+    imageUrl:
+        'https://i.pinimg.com/1200x/b3/7d/2e/b37d2e5dc5b3eb6143eec559a464fc0b.jpg',
   ),
   Product(
     id: 'p3',

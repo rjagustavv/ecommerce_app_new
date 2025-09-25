@@ -1,4 +1,4 @@
-import 'package:ecommerce_app_new/pages/product_detail.dart';
+import 'package:ecommerce_app_new/features/product/pages/product_detail.dart';
 import 'package:flutter/material.dart';
 import '../models/product.dart';
 import '../pages/product_detail.dart';
@@ -47,7 +47,7 @@ class ProductCard extends StatelessWidget {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'Rp ${product.price.toStringAsFixed(0)}',
+                    'Rp. ${product.price.toStringAsFixed(0)}',
                     style: const TextStyle(
                       fontSize: 14,
                       color: Colors.deepPurple,
